@@ -1,5 +1,6 @@
 price = 50
 quantity = 3
-total_cost = ...  # здесь Ваш код
+total_cost = price * quantity
 
-print(...)  # допишите код
+print('Вы должны заплатить ' + str(total_cost) + ' рублей за ' + str(quantity)
+      + ' единиц товара по цене ' + str(price) + ' рублей за единицу')

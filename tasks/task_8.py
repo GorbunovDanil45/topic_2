@@ -1,9 +1,9 @@
-salary = 50000  # заработная плата
-tax_rate = 0.13  # коэффициент налоговой ставки 13%
+salary = 50000
+tax_rate = 0.13
 
-tax = ...  # здесь Ваш код
-total_salary = ...  # здесь Ваш код
+tax = salary * tax_rate
+total_salary = salary - tax
 
-print(...)  # допишите код
-print(...)  # допишите код
-print(...)  # допишите код
+print('Размер зарплаты: ' + str(salary) + ' рублей')
+print('Размер подоходного налога: ' + str(tax) + ' рублей')
+print('Сумма на руки: ' + str(total_salary) + ' рублей')
